@@ -28,7 +28,7 @@ const development: IConfig = {
     mongodbUri: process.env.MONGODB_URI || "mongodb://localhost:27017/",
     mongodbMain: process.env.MONGODB_DB_MAIN || "monorepo",
     mongodRoot: process.env.MONGODB_ROOT_USER || "monorepo",
-    mongodPass: process.env.MONGODB_ROOT_PASS || "bsiSG8hyoP1xVMLRidyg",
+    mongodPass: process.env.MONGODB_ROOT_PASS || "yourpwd",
   },
 };
 
@@ -39,7 +39,7 @@ const production: IConfig = {
     mongodbUri: process.env.MONGODB_URI || "mongodb://mongo:27017/",
     mongodbMain: process.env.MONGODB_DB_MAIN || "monorepo",
     mongodRoot: process.env.MONGODB_ROOT_USER || "monorepo",
-    mongodPass: process.env.MONGODB_ROOT_PASS || "bsiSG8hyoP1xVMLRidyg",
+    mongodPass: process.env.MONGODB_ROOT_PASS || "yourpwd",
   },
 };
 
