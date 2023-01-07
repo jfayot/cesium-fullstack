@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 import path from "node:path";
 import { config, Environment, startServer } from "@monorepo/api";
 
-// __dirname is not available in Node.js
+// __dirname is not available in ES module scope
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
