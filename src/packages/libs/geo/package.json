@@ -1,0 +1,11 @@
+{
+  "name": "@monorepo/geo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "author": "",
+  "license": "ISC"
+}

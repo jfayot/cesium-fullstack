@@ -1,12 +1,14 @@
 {
   "compilerOptions": {
-    "incremental": false /* Enable incremental compilation */,
+    "incremental": true /* Enable incremental compilation */,
     "baseUrl": "./",
     "target": "ESNext" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
     "module": "ESNext" /* Specify what module code is generated. */,
     // "declaration": true /* Generates corresponding '.d.ts' file. */,
     // "declarationMap": true /* Generates a sourcemap for each corresponding '.d.ts' file. */,
     // "sourceMap": true /* Generates corresponding '.map' file. */,
+    "declaration": true,
+    "composite": true,
     "removeComments": true /* Do not emit comments to output. */,
     "rootDir": "./src" /* Specify the root folder within your source files. */,
     "outDir": "./dist",
@@ -20,12 +22,5 @@
     "noImplicitReturns": true /* Report error when not all code paths in function return a value. */,
     "moduleResolution": "node",
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
-  },
-  "references": [{ "path": "./src/packages/apps/api" }],
-  "exclude": [
-    "./src/packages/apps/web/",
-    "./src/packages/libs/ui/",
-    "./dist/",
-    "./node_modules/"
-  ]
+  }
 }
