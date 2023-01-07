@@ -1,5 +1,7 @@
 # Description
 
+Work in progress...
+
 This repository tries to demonstrate a fullstack monorepo cesium project using the following stack:
 - [ ] React.js, cesium and vite.js for the frontend part
 - [ ] express.js for the backend and REST API (TODO)
