@@ -10,6 +10,10 @@ This repository tries to demonstrate a fullstack monorepo cesium project using t
 - [ ] Docker (TODO)
 - [ ] Nginx (TODO)
 
+Beside these, it also plays arround the following cesium features:
+- [ ] [Cesium Fabric](https://github.com/CesiumGS/cesium/wiki/Fabric)
+- [ ] [Cesium Custom Primitives](https://github.com/cesiumlab/cesium-custom-primitive)
+
 ## Requirements
 
 To compile and run this project, you'll need the following prerequisites:
